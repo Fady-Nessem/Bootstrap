@@ -1,0 +1,163 @@
+/* Media Query */
+/* Phone xs */
+@media (max-width:575px){
+    .navbar .navbar-brand{
+        font-size: 22px;
+    }
+    .navbar-light .navbar-toggler{
+       position: absolute;
+       left: 0;
+       top: 0;
+    }
+    .navbar .collapse .navbar-nav{
+        left: 0;
+        background: rgba(0, 0, 0, 0.75);
+    }
+/* Start Start */
+    #start .opacity .middlep{
+        width: 95%;
+    }
+    #start .opacity .middlep .bold{
+        color: white;
+        font-size: 20px;
+    }
+    #start .opacity .middlep .text{
+        color: black;
+        /* width: 95%; */
+        font-size: 20px;
+    }
+    #about p{
+        width: 90%;
+    }
+    #service .collection{
+        width: 90%;
+        flex-direction: column;
+    }
+    #service .collection .items{
+        margin-bottom: 20px;
+    }
+    #service .collection .items p{
+        width: 100%;
+    }  
+    #portfolio{
+        flex-direction: column;
+    }
+    #portfolio .product-item{
+        width: 100%;
+    }
+    #portfolio .product-item .portfolio-box img{
+        height:auto;
+        width: 483px;
+    }
+    #contact .touch .ready{
+        width: 90%;
+    }
+    #contact .contact-icons{
+        flex-direction: column;
+    }
+    #contact .contact-icons .phone{
+        margin-right: 0;
+        margin-bottom: 50;
+    }
+    #contact .contact-icons .mail{
+        margin-bottom: 50;
+    }
+}
+/* Small */
+@media (min-width:576px) and (max-width:768px){
+    #start .opacity .middlep{
+        width: 62%;
+    }
+    #start .opacity .middlep .bold{
+        color: white;
+        font-size: 35px;
+    }
+    #start .opacity .middlep .text{
+        color: black;
+        width: 95%;
+        font-size: 20px;
+    }
+    #about p{
+        width: 70%;
+    }
+    #service .collection{
+      width: 90%;
+      flex-direction: column;
+    }
+    #service .collection .items{
+        margin-bottom: 20px;
+    }
+    #service .collection .items p{
+        width: 100%;
+    }
+    #portfolio .product-item{
+        width: 50%;   
+    }    
+    #contact .touch .ready{
+        width: 75%;
+        margin: auto;
+    }
+    #contact .contact-icons{
+        flex-direction: column;
+    }
+    #contact .contact-icons .phone{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    #contact .contact-icons .mail{
+        margin-bottom: 50px;
+    }
+}
+/* medium */
+@media (min-width:769px) and (max-width:991px) {
+    #start .opacity .middlep{
+        width: 62%;
+    }
+    #start .opacity .middlep .bold{
+        color: white;
+        font-size: 35px;
+    }
+    #start .opacity .middlep .text{
+        color: black;
+        width: 95%;
+        font-size: 20px;
+    }
+    #about p{
+        width: 70%;
+    }
+    #service .collection{
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    #service .collection .items{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    #service .collection .items p{
+        width: 80%;
+        margin: auto;
+    }
+    #portfolio .product-item{
+        width: 50%;   
+    }    
+    #contact .touch .ready{
+        width: 75%;
+        margin: auto;
+    }
+    #contact .contact-icons{
+        flex-direction: column;
+    }
+    #contact .contact-icons .phone{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    #contact .contact-icons .mail{
+        margin-bottom: 50px;
+    }
+
+}
+
+/* large */
+@media (min-width:992px) {
+    
+}

@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*  Start Navbar */
+.navbar{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+.navbar .navbar-brand{
+    margin: 0 120px;
+    font-size: 28px;
+    font-weight: bold;
+    color: lightgray;
+}
+.navbar .collapse{
+    width: 100%;
+}
+.navbar .collapse .navbar-nav{
+    position: absolute;
+    right: 100;
+}
+.navbar .collapse .navbar-nav .nav-item{
+    margin-left: 30px;   
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    font-weight: bold;    
+    color: lightgray;
+}
+/* Start Start */
+#start{
+    width: 100%;
+    background-image: url(../Images/labtop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#start .opacity{
+    width: 100%;
+    background-color: rgba(255,255,200,.3);
+}
+#start .opacity .middlep{
+    width: 60%;
+    margin: auto;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#start .opacity .middlep .bold{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+#start .opacity .middlep .underline{
+    width: 50px;
+    border-bottom: 3px solid red;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#start .opacity .middlep .text{
+    color: lightgray;
+    font-size: 22px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+#start .opacity .middlep .find{
+    background: #f4623a;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    border: 0;
+    transition: 0.5s;
+}
+#start .opacity .middlep .find:hover{
+    cursor: pointer;
+    background: red;
+    transition: 0.5s;
+}
+/*  Start About  */
+#about{
+    background: #f4623a;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about .we {
+    color: white;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 50px;
+    padding-top: 120px;
+}
+#about .underline{
+    width: 50px;
+    border-bottom: 3px solid white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+#about p{
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 53%;
+    text-align: center;
+    display: block;
+}
+#about .get{
+    background: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 170px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 38%;
+    margin-top: 20px;
+    margin-bottom: 130px;
+    border: 0;
+    transition: 0.5s;
+}
+#about .get:hover{
+    cursor: pointer;
+    background: lightgray;
+    transition: 0.5s;
+}
+/*  Start Services  */
+#service{
+    padding-top: 130px;
+    padding-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#service .at{
+    font-size: 34px;
+}
+#service .underline{
+    width: 50px;
+    border-bottom: 2px solid red;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#service .collection{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#service .collection .items{
+    text-align: center;
+}
+#service .collection .items .fas{
+    color: #f4623a;
+    font-size: 65px;
+    margin: 20px 0;
+}
+#service .collection .items h3{
+    font-size: 25px;
+    font-weight: normal;
+}
+#service .collection .items p{
+    margin: 10px 0;
+    padding-top: 10px;
+    font-size: 18px;
+    color: gray;
+    width: 240px;
+}
+/*   Start Portfolio */
+#portfolio{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#portfolio .product-item{
+    width: 33.33%;
+    position: relative; 
+}
+#portfolio .product-item .portfolio-box{
+    width: 100%;
+}
+#portfolio .product-item .portfolio-box img{
+    width: 100%;
+}
+#portfolio .product-item .portfolio-box .opacity{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background-color: transparent;
+    color: transparent;
+    opacity: 0.9;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#portfolio .product-item .portfolio-box .opacity:hover{
+    background: #f4623a;
+    transition: 0.3s;
+    color: white;
+}
+#portfolio .product-item .portfolio-box .opacity .category{
+    font-size: 16px;;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#portfolio .product-item .portfolio-box .opacity .project-name{
+    font-size: 25px;
+}
+  /* Start Download */
+#download .solid{
+    text-align: center;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background: #343a40;
+}
+#download .solid .free{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#download .solid button{
+    padding: 20px 30px;
+    background: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 0;
+}
+/*   Start Contact  */
+#contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact .touch{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+#contact .touch .let{
+    text-transform: capitalize;
+    font-size: 35px;
+}
+#contact .touch .underline{
+    width: 50px;
+    border-bottom: 3px solid red;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#contact .touch .ready{
+    font-size: 20px;
+    color: gray;
+    width: 750px;
+}
+#contact .contact-icons{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#contact .contact-icons .phone{
+    margin-right: 220px;
+    margin-bottom: 150px;
+}
+#contact .contact-icons .phone:hover{
+    cursor: pointer;
+    color: blue;
+}
+#contact .contact-icons .fas{
+    display: block;
+    color: gray;
+    padding-bottom: 20px;
+}
+#contact .contact-icons span{
+    font-size: 18px;
+}   
+.Copyright{
+    /* background-color:#f8f9fa; */
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: gray
+}
